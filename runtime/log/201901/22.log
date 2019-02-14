@@ -1,0 +1,1426 @@
+---------------------------------------------------------------
+[ 2019-01-22T18:07:14+08:00 ] 127.0.0.1 GET honghai.admin.com/
+[运行时间：0.605777s] [吞吐率：1.65req/s] [内存消耗：2,553.88kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000649s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.046297s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.022441s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\honghai\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\honghai\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:15+08:00 ] 127.0.0.1 GET honghai.admin.com/favicon.ico
+[运行时间：0.054074s] [吞吐率：18.49req/s] [内存消耗：1,661.67kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000081s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005057s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:16+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/index/login.html
+[运行时间：0.123826s] [吞吐率：8.08req/s] [内存消耗：2,781.53kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004337s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001641s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\honghai\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\honghai\fastadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000302s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:16+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/ajax/lang?callback=define&controllername=index&v=1548151636
+[运行时间：0.067969s] [吞吐率：14.71req/s] [内存消耗：2,791.97kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003418s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/index/login.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1548151636',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001683s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\honghai\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000282s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:18+08:00 ] 127.0.0.1 POST honghai.admin.com/admin/index/login.html
+[运行时间：0.524974s] [吞吐率：1.90req/s] [内存消耗：3,547.23kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005185s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '73',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '147a4e9d36f274ad8daecd12d8ac3542',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004627s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\honghai\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.055791s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.223936s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.027760s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.077576s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1548151638,`token`='f8cc53bd-05b7-4d35-a30a-0296e86bda3a',`updatetime`=1548151638  WHERE  `id` = 1 [ RunTime:0.025151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.025859s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"147a4e9d36f274ad8daecd12d8ac3542\",\"username\":\"admin\"}' , '/admin/index/login.html' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0' , '127.0.0.1' , 1548151638) [ RunTime:0.027314s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:07:19+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/index/index
+[运行时间：0.354206s] [吞吐率：2.82req/s] [内存消耗：3,920.95kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000083s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005270s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/index/login.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001674s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\honghai\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\honghai\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000483s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020470s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.017576s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.014566s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.017036s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.024931s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:07:19+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/ajax/lang?callback=define&controllername=index&v=1548151638
+[运行时间：0.041272s] [吞吐率：24.23req/s] [内存消耗：2,793.44kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003554s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/index/index',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1548151638',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007542s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\honghai\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:20+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/general/config?addtabs=1
+[运行时间：0.284349s] [吞吐率：3.52req/s] [内存消耗：3,762.43kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005036s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/index/index',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001670s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ E:\honghai\fastadmin\application\admin\controller\general\Config.php ]
+[ info ] [ VIEW ] E:\honghai\fastadmin\public/../application/admin\view\general\config\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000130s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029766s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.027275s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.020925s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.023608s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.035317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_config` [ RunTime:0.023395s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_config` [ RunTime:0.037672s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.019345s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:07:20+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/ajax/lang?callback=define&controllername=general.config&v=1548151639
+[运行时间：0.027826s] [吞吐率：35.94req/s] [内存消耗：2,792.35kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003185s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/general/config?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1548151639',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001165s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\honghai\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:23+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/document?addtabs=1
+[运行时间：0.243156s] [吞吐率：4.11req/s] [内存消耗：3,885.37kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003177s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'document',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/index/index',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001072s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/document.php
+[ info ] [ RUN ] app\admin\controller\Document->index[ E:\honghai\fastadmin\application\admin\controller\Document.php ]
+[ info ] [ VIEW ] E:\honghai\fastadmin\public/../application/admin\view\document\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000363s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025366s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.017976s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.016112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.018744s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.028039s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'document' LIMIT 1 [ RunTime:0.015772s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:07:23+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/ajax/lang?callback=define&controllername=document&v=1548151642
+[运行时间：0.029482s] [吞吐率：33.92req/s] [内存消耗：2,789.73kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002879s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'document',
+  'v' => '1548151642',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001185s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\honghai\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/document.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000152s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:24+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/document/index?sort=weigh&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1548151643176
+[运行时间：0.607751s] [吞吐率：1.65req/s] [内存消耗：3,889.63kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003418s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'document',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1548151643176',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001205s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/document.php
+[ info ] [ RUN ] app\admin\controller\Document->index[ E:\honghai\fastadmin\application\admin\controller\Document.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000653s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029237s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.336244s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.015422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.019238s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.039370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_categorys` [ RunTime:0.017617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_document` [ RunTime:0.017957s ]
+[ sql ] [ SQL ] SELECT `document`.`id`,`document`.`category_id`,`document`.`weigh`,`document`.`title`,`document`.`sub_title`,`document`.`image`,`document`.`summary`,`document`.`content`,category.id AS category__id,category.name AS category__name,category.createtime AS category__createtime FROM `fa_document` `document` LEFT JOIN `fa_categorys` `category` ON `document`.`category_id`=`category`.`id` ORDER BY `document`.`weigh` DESC LIMIT 0,10 [ RunTime:0.032478s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_document` `document` LEFT JOIN `fa_categorys` `category` ON `document`.`category_id`=`category`.`id` ORDER BY `document`.`weigh` DESC LIMIT 1 [ RunTime:0.015126s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:07:24+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/64a9d94b37dc45946896b62168e0f732.png
+[运行时间：0.032875s] [吞吐率：30.42req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004448s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '64a9d94b37dc45946896b62168e0f732.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:24+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/f7ccae17d89e4bd189ff15de4e545e58.png
+[运行时间：0.033300s] [吞吐率：30.03req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005853s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => 'f7ccae17d89e4bd189ff15de4e545e58.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:24+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/8d7772b739c695c82ad713e3c60fe50a.png
+[运行时间：0.033104s] [吞吐率：30.21req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008835s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '8d7772b739c695c82ad713e3c60fe50a.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:28+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/document/edit/ids/14?dialog=1
+[运行时间：0.211810s] [吞吐率：4.72req/s] [内存消耗：3,902.55kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003102s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'document',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '14',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001292s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/document.php
+[ info ] [ RUN ] controller\BasicAdmin->edit[ E:\honghai\fastadmin\extend\controller\BasicAdmin.php ]
+[ info ] [ VIEW ] E:\honghai\fastadmin\public/../application/admin\view\document\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000384s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022816s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.019143s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.016824s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.021079s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.029708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_document` [ RunTime:0.021412s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_document` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.017248s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:07:28+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/ajax/lang?callback=define&controllername=document&v=1548151647
+[运行时间：0.030045s] [吞吐率：33.28req/s] [内存消耗：2,789.73kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002979s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document/edit/ids/14?dialog=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'document',
+  'v' => '1548151647',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001262s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\honghai\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/document.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:28+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/64a9d94b37dc45946896b62168e0f732.png
+[运行时间：0.020754s] [吞吐率：48.18req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004323s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '64a9d94b37dc45946896b62168e0f732.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document/edit/ids/14?dialog=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:29+08:00 ] 127.0.0.1 POST honghai.admin.com/admin/categorys/index
+[运行时间：0.300311s] [吞吐率：3.33req/s] [内存消耗：3,685.16kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003525s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'categorys',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document/edit/ids/14?dialog=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '1',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '1',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001323s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/categorys.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\honghai\fastadmin\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.073789s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024328s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.018137s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.015087s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.025929s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.039520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_categorys` [ RunTime:0.019486s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_categorys` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.015025s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_categorys` WHERE  `id` IN (1) ORDER BY `name` ASC LIMIT 0,20 [ RunTime:0.016131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.021372s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('案例管理 案例分类 查看' , '{\"searchTable\":\"tbl\",\"searchKey\":\"id\",\"searchValue\":\"1\",\"orderBy\":[[\"name\",\"ASC\"]],\"showField\":\"name\",\"keyField\":\"id\",\"keyValue\":\"1\",\"searchField\":[\"name\"]}' , '/admin/categorys/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0' , '127.0.0.1' , 1548151648) [ RunTime:0.051386s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:07:29+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/1d4ee8f290978e9c00bb87b22065b877.png
+[运行时间：0.030204s] [吞吐率：33.11req/s] [内存消耗：1,662.48kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004067s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '1d4ee8f290978e9c00bb87b22065b877.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document/edit/ids/14?dialog=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:38+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/document/edit/ids/14?dialog=1
+[运行时间：0.187749s] [吞吐率：5.33req/s] [内存消耗：3,752.05kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003200s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'document',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '14',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001231s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/document.php
+[ info ] [ RUN ] controller\BasicAdmin->edit[ E:\honghai\fastadmin\extend\controller\BasicAdmin.php ]
+[ info ] [ VIEW ] E:\honghai\fastadmin\public/../application/admin\view\document\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000332s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021188s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.018436s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.016215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.021487s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.028401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_document` [ RunTime:0.019091s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_document` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.017744s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:07:38+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/ajax/lang?callback=define&controllername=document&v=1548151658
+[运行时间：0.033814s] [吞吐率：29.57req/s] [内存消耗：2,789.73kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002940s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document/edit/ids/14?dialog=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'document',
+  'v' => '1548151658',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001192s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\honghai\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/document.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:38+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/64a9d94b37dc45946896b62168e0f732.png
+[运行时间：0.021735s] [吞吐率：46.01req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004069s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '64a9d94b37dc45946896b62168e0f732.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document/edit/ids/14?dialog=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:39+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/1d4ee8f290978e9c00bb87b22065b877.png
+[运行时间：0.032331s] [吞吐率：30.93req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004116s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '1d4ee8f290978e9c00bb87b22065b877.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document/edit/ids/14?dialog=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:07:39+08:00 ] 127.0.0.1 POST honghai.admin.com/admin/categorys/index
+[运行时间：0.305060s] [吞吐率：3.28req/s] [内存消耗：3,685.16kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005564s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'categorys',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document/edit/ids/14?dialog=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '154',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'searchTable' => 'tbl',
+  'searchKey' => 'id',
+  'searchValue' => '1',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'showField' => 'name',
+  'keyField' => 'id',
+  'keyValue' => '1',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001399s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/categorys.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ E:\honghai\fastadmin\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.049285s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033993s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.024515s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.021845s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.026109s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.034444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_categorys` [ RunTime:0.026885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_categorys` WHERE  `id` IN (1) LIMIT 1 [ RunTime:0.022568s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_categorys` WHERE  `id` IN (1) ORDER BY `name` ASC LIMIT 0,20 [ RunTime:0.021471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.023930s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('案例管理 案例分类 查看' , '{\"searchTable\":\"tbl\",\"searchKey\":\"id\",\"searchValue\":\"1\",\"orderBy\":[[\"name\",\"ASC\"]],\"showField\":\"name\",\"keyField\":\"id\",\"keyValue\":\"1\",\"searchField\":[\"name\"]}' , '/admin/categorys/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0' , '127.0.0.1' , 1548151659) [ RunTime:0.024518s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:08:07+08:00 ] 127.0.0.1 POST honghai.admin.com/admin/document/edit/ids/14?dialog=1
+[运行时间：0.227867s] [吞吐率：4.39req/s] [内存消耗：3,809.81kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004100s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'document',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document/edit/ids/14?dialog=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '7095',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'row' => 
+  array (
+    'category_id' => '1',
+    'weigh' => '14',
+    'title' => '芜湖绿地镜湖世纪城',
+    'sub_title' => '新正式风格',
+    'image' => '/uploads/20190117/64a9d94b37dc45946896b62168e0f732.png',
+    'summary' => '深圳惠连诚科技有限责任公司，成立于2016年。我们致力于最值得信赖的互联网转型服务商，为传统企业提供最专业的互联网转型服务。先后为近300家企业提供包括项目咨询，产品咨询，技术支持，运营协助，营销推广等服务，并获得一致赞誉。',
+    'content' => '<p>深圳惠连诚科技有限责任公司，成立于2016年。我们致力于最值得信赖的互联网转型服务商，为传统企业提供最专业的互联网转型服务。先后为近300家企业提供包括项目咨询，产品咨询，技术支持，运营协助，营销推广等服务，并获得一致赞誉。</p>
+<p>&nbsp;</p>
+<p>我们秉持"团结互助、勇于创新、精益求精"的企业文化，坚持以满足客户的个性化需求为目标，力求从技术、产品到服务的每个细节都做到极致。同时坚守"客户第一.</p>
+<p>&nbsp;</p>
+<p><img src="/uploads/20190117/1d4ee8f290978e9c00bb87b22065b877.png" alt="" width="420" height="315" /></p>
+<p>随着房产市场竞争的日益激烈， 企业越早获得准确的房屋信息就能越早和业主建立直接的联系， 从而成功把握更多的商机。我们在在北京的信息员均有着多年的房产信息收集经验， 能够通过各种媒体渠道、实地调查以及本公司的人脉关系获得大量的房屋信息。 随着房产市场竞争的日益激烈， 企业越早获得准确的房屋信息就能越早和业主建立直接的联系， 从而成功把握更多的商机。我们在在北京的信息员均有着多年的房产信息收集经验， 能够通过各种媒体渠道、实地调查以及本公司的人脉关系获得大量的房屋信息。 随着房产市场竞争的日益激烈， 企业越早获得准确的房屋信息就能越早和业主建立直接的联系， 从而成功把握更多的商机。我们在在北京的信息员均有着多年的房产信息收集经验， 能够通过各种媒体渠道、实地调查以及本公司的人脉关系获得大量的房屋信息。 随着房产市场竞争的日益激烈， 企业越早获得准确的房屋信息就能越早和业主建立直接的联系， 从而成功把握更多的商机。我们在在北京的信息员均有着多年的房产信息收集经验， 能够通过各种媒体渠.</p>',
+  ),
+  'ids' => '14',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001126s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/document.php
+[ info ] [ RUN ] controller\BasicAdmin->edit[ E:\honghai\fastadmin\extend\controller\BasicAdmin.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.038386s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025061s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.017872s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.016570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.017155s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.024587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_document` [ RunTime:0.017232s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_document` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.015548s ]
+[ sql ] [ SQL ] UPDATE `fa_document`  SET `category_id`=1,`weigh`=14,`title`='芜湖绿地镜湖世纪城',`sub_title`='新正式风格',`image`='/uploads/20190117/64a9d94b37dc45946896b62168e0f732.png',`summary`='深圳惠连诚科技有限责任公司，成立于2016年。我们致力于最值得信赖的互联网转型服务商，为传统企业提供最专业的互联网转型服务。先后为近300家企业提供包括项目咨询，产品咨询，技术支持，运营协助，营销推广等服务，并获得一致赞誉。',`content`='<p>深圳惠连诚科技有限责任公司，成立于2016年。我们致力于最值得信赖的互联网转型服务商，为传统企业提供最专业的互联网转型服务。先后为近300家企业提供包括项目咨询，产品咨询，技术支持，运营协助，营销推广等服务，并获得一致赞誉。</p>\r\n<p>&nbsp;</p>\r\n<p>我们秉持\"团结互助、勇于创新、精益求精\"的企业文化，坚持以满足客户的个性化需求为目标，力求从技术、产品到服务的每个细节都做到极致。同时坚守\"客户第一.</p>\r\n<p>&nbsp;</p>\r\n<p><img src=\"/uploads/20190117/1d4ee8f290978e9c00bb87b22065b877.png\" alt=\"\" width=\"420\" height=\"315\" /></p>\r\n<p>随着房产市场竞争的日益激烈， 企业越早获得准确的房屋信息就能越早和业主建立直接的联系， 从而成功把握更多的商机。我们在在北京的信息员均有着多年的房产信息收集经验， 能够通过各种媒体渠道、实地调查以及本公司的人脉关系获得大量的房屋信息。 随着房产市场竞争的日益激烈， 企业越早获得准确的房屋信息就能越早和业主建立直接的联系， 从而成功把握更多的商机。我们在在北京的信息员均有着多年的房产信息收集经验， 能够通过各种媒体渠道、实地调查以及本公司的人脉关系获得大量的房屋信息。 随着房产市场竞争的日益激烈， 企业越早获得准确的房屋信息就能越早和业主建立直接的联系， 从而成功把握更多的商机。我们在在北京的信息员均有着多年的房产信息收集经验， 能够通过各种媒体渠道、实地调查以及本公司的人脉关系获得大量的房屋信息。 随着房产市场竞争的日益激烈， 企业越早获得准确的房屋信息就能越早和业主建立直接的联系， 从而成功把握更多的商机。我们在在北京的信息员均有着多年的房产信息收集经验， 能够通过各种媒体渠.</p>'  WHERE  `id` = 14 [ RunTime:0.014976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.017517s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('案例管理 案例介绍 编辑' , '{\"dialog\":\"1\",\"row\":{\"category_id\":\"1\",\"weigh\":\"14\",\"title\":\"\\u829c\\u6e56\\u7eff\\u5730\\u955c\\u6e56\\u4e16\\u7eaa\\u57ce\",\"sub_title\":\"\\u65b0\\u6b63\\u5f0f\\u98ce\\u683c\",\"image\":\"\\/uploads\\/20190117\\/64a9d94b37dc45946896b62168e0f732.png\",\"summary\":\"\\u6df1\\u5733\\u60e0\\u8fde\\u8bda\\u79d1\\u6280\\u6709\\u9650\\u8d23\\u4efb\\u516c\\u53f8\\uff0c\\u6210\\u7acb\\u4e8e2016\\u5e74\\u3002\\u6211\\u4eec\\u81f4\\u529b\\u4e8e\\u6700\\u503c\\u5f97\\u4fe1\\u8d56\\u7684\\u4e92\\u8054\\u7f51\\u8f6c\\u578b\\u670d\\u52a1\\u5546\\uff0c\\u4e3a\\u4f20\\u7edf\\u4f01\\u4e1a\\u63d0\\u4f9b\\u6700\\u4e13\\u4e1a\\u7684\\u4e92\\u8054\\u7f51\\u8f6c\\u578b\\u670d\\u52a1\\u3002\\u5148\\u540e\\u4e3a\\u8fd1300\\u5bb6\\u4f01\\u4e1a\\u63d0\\u4f9b\\u5305\\u62ec\\u9879\\u76ee\\u54a8\\u8be2\\uff0c\\u4ea7\\u54c1\\u54a8\\u8be2\\uff0c\\u6280\\u672f\\u652f\\u6301\\uff0c\\u8fd0\\u8425\\u534f\\u52a9\\uff0c\\u8425\\u9500\\u63a8\\u5e7f\\u7b49\\u670d\\u52a1\\uff0c\\u5e76\\u83b7\\u5f97\\u4e00\\u81f4\\u8d5e\\u8a89\\u3002\",\"content\":\"<p>\\u6df1\\u5733\\u60e0\\u8fde\\u8bda\\u79d1\\u6280\\u6709\\u9650\\u8d23\\u4efb\\u516c\\u53f8\\uff0c\\u6210\\u7acb\\u4e8e2016\\u5e74\\u3002\\u6211\\u4eec\\u81f4\\u529b\\u4e8e\\u6700\\u503c\\u5f97\\u4fe1\\u8d56\\u7684\\u4e92\\u8054\\u7f51\\u8f6c\\u578b\\u670d\\u52a1\\u5546\\uff0c\\u4e3a\\u4f20\\u7edf\\u4f01\\u4e1a\\u63d0\\u4f9b\\u6700\\u4e13\\u4e1a\\u7684\\u4e92\\u8054\\u7f51\\u8f6c\\u578b\\u670d\\u52a1\\u3002\\u5148\\u540e\\u4e3a\\u8fd1300\\u5bb6\\u4f01\\u4e1a\\u63d0\\u4f9b\\u5305\\u62ec\\u9879\\u76ee\\u54a8\\u8be2\\uff0c\\u4ea7\\u54c1\\u54a8\\u8be2\\uff0c\\u6280\\u672f\\u652f\\u6301\\uff0c\\u8fd0\\u8425\\u534f\\u52a9\\uff0c\\u8425\\u9500\\u63a8\\u5e7f\\u7b49\\u670d\\u52a1\\uff0c\\u5e76\\u83b7\\u5f97\\u4e00\\u81f4\\u8d5e\\u8a89\\u3002<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<p>\\u6211\\u4eec\\u79c9\\u6301\\\"\\u56e2\\u7ed3\\u4e92\\u52a9\\u3001\\u52c7\\u4e8e\\u521b\\u65b0\\u3001\\u7cbe\\u76ca\\u6c42\\u7cbe\\\"\\u7684\\u4f01\\u4e1a\\u6587\\u5316\\uff0c\\u575a\\u6301\\u4ee5\\u6ee1\\u8db3\\u5ba2\\u6237\\u7684\\u4e2a\\u6027\\u5316\\u9700\\u6c42\\u4e3a\\u76ee\\u6807\\uff0c\\u529b\\u6c42\\u4ece\\u6280\\u672f\\u3001\\u4ea7\\u54c1\\u5230\\u670d\\u52a1\\u7684\\u6bcf\\u4e2a\\u7ec6\\u8282\\u90fd\\u505a\\u5230\\u6781\\u81f4\\u3002\\u540c\\u65f6\\u575a\\u5b88\\\"\\u5ba2\\u6237\\u7b2c\\u4e00.<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<p><img src=\\\"\\/uploads\\/20190117\\/1d4ee8f290978e9c00bb87b22065b877.png\\\" alt=\\\"\\\" width=\\\"420\\\" height=\\\"315\\\" \\/><\\/p>\\r\\n<p>\\u968f\\u7740\\u623f\\u4ea7\\u5e02\\u573a\\u7ade\\u4e89\\u7684\\u65e5\\u76ca\\u6fc0\\u70c8\\uff0c \\u4f01\\u4e1a\\u8d8a\\u65e9\\u83b7\\u5f97\\u51c6\\u786e\\u7684\\u623f\\u5c4b\\u4fe1\\u606f\\u5c31\\u80fd\\u8d8a\\u65e9\\u548c\\u4e1a\\u4e3b\\u5efa\\u7acb\\u76f4\\u63a5\\u7684\\u8054\\u7cfb\\uff0c \\u4ece\\u800c\\u6210\\u529f\\u628a\\u63e1\\u66f4\\u591a\\u7684\\u5546\\u673a\\u3002\\u6211\\u4eec\\u5728\\u5728\\u5317\\u4eac\\u7684\\u4fe1\\u606f\\u5458\\u5747\\u6709\\u7740\\u591a\\u5e74\\u7684\\u623f\\u4ea7\\u4fe1\\u606f\\u6536\\u96c6\\u7ecf\\u9a8c\\uff0c \\u80fd\\u591f\\u901a\\u8fc7\\u5404\\u79cd\\u5a92\\u4f53\\u6e20\\u9053\\u3001\\u5b9e\\u5730\\u8c03\\u67e5\\u4ee5\\u53ca\\u672c\\u516c\\u53f8\\u7684\\u4eba\\u8109\\u5173\\u7cfb\\u83b7\\u5f97\\u5927\\u91cf\\u7684\\u623f\\u5c4b\\u4fe1\\u606f\\u3002 \\u968f\\u7740\\u623f\\u4ea7\\u5e02\\u573a\\u7ade\\u4e89\\u7684\\u65e5\\u76ca\\u6fc0\\u70c8\\uff0c \\u4f01\\u4e1a\\u8d8a\\u65e9\\u83b7\\u5f97\\u51c6\\u786e\\u7684\\u623f\\u5c4b\\u4fe1\\u606f\\u5c31\\u80fd\\u8d8a\\u65e9\\u548c\\u4e1a\\u4e3b\\u5efa\\u7acb\\u76f4\\u63a5\\u7684\\u8054\\u7cfb\\uff0c \\u4ece\\u800c\\u6210\\u529f\\u628a\\u63e1\\u66f4\\u591a\\u7684\\u5546\\u673a\\u3002\\u6211\\u4eec\\u5728\\u5728\\u5317\\u4eac\\u7684\\u4fe1\\u606f\\u5458\\u5747\\u6709\\u7740\\u591a\\u5e74\\u7684\\u623f\\u4ea7\\u4fe1\\u606f\\u6536\\u96c6\\u7ecf\\u9a8c\\uff0c \\u80fd\\u591f\\u901a\\u8fc7\\u5404\\u79cd\\u5a92\\u4f53\\u6e20\\u9053\\u3001\\u5b9e\\u5730\\u8c03\\u67e5\\u4ee5\\u53ca\\u672c\\u516c\\u53f8\\u7684\\u4eba\\u8109\\u5173\\u7cfb\\u83b7\\u5f97\\u5927\\u91cf\\u7684\\u623f\\u5c4b\\u4fe1\\u606f\\u3002 \\u968f\\u7740\\u623f\\u4ea7\\u5e02\\u573a\\u7ade\\u4e89\\u7684\\u65e5\\u76ca\\u6fc0\\u70c8\\uff0c \\u4f01\\u4e1a\\u8d8a\\u65e9\\u83b7\\u5f97\\u51c6\\u786e\\u7684\\u623f\\u5c4b\\u4fe1\\u606f\\u5c31\\u80fd\\u8d8a\\u65e9\\u548c\\u4e1a\\u4e3b\\u5efa\\u7acb\\u76f4\\u63a5\\u7684\\u8054\\u7cfb\\uff0c \\u4ece\\u800c\\u6210\\u529f\\u628a\\u63e1\\u66f4\\u591a\\u7684\\u5546\\u673a\\u3002\\u6211\\u4eec\\u5728\\u5728\\u5317\\u4eac\\u7684\\u4fe1\\u606f\\u5458\\u5747\\u6709\\u7740\\u591a\\u5e74\\u7684\\u623f\\u4ea7\\u4fe1\\u606f\\u6536\\u96c6\\u7ecf\\u9a8c\\uff0c \\u80fd\\u591f\\u901a\\u8fc7\\u5404\\u79cd\\u5a92\\u4f53\\u6e20\\u9053\\u3001\\u5b9e\\u5730\\u8c03\\u67e5\\u4ee5\\u53ca\\u672c\\u516c\\u53f8\\u7684\\u4eba\\u8109\\u5173\\u7cfb\\u83b7\\u5f97\\u5927\\u91cf\\u7684\\u623f\\u5c4b\\u4fe1\\u606f\\u3002 \\u968f\\u7740\\u623f\\u4ea7\\u5e02\\u573a\\u7ade\\u4e89\\u7684\\u65e5\\u76ca\\u6fc0\\u70c8\\uff0c \\u4f01\\u4e1a\\u8d8a\\u65e9\\u83b7\\u5f97\\u51c6\\u786e\\u7684\\u623f\\u5c4b\\u4fe1\\u606f\\u5c31\\u80fd\\u8d8a\\u65e9\\u548c\\u4e1a\\u4e3b\\u5efa\\u7acb\\u76f4\\u63a5\\u7684\\u8054\\u7cfb\\uff0c \\u4ece\\u800c\\u6210\\u529f\\u628a\\u63e1\\u66f4\\u591a\\u7684\\u5546\\u673a\\u3002\\u6211\\u4eec\\u5728\\u5728\\u5317\\u4eac\\u7684\\u4fe1\\u606f\\u5458\\u5747\\u6709\\u7740\\u591a\\u5e74\\u7684\\u623f\\u4ea7\\u4fe1\\u606f\\u6536\\u96c6\\u7ecf\\u9a8c\\uff0c \\u80fd\\u591f\\u901a\\u8fc7\\u5404\\u79cd\\u5a92\\u4f53\\u6e20.<\\/p>\"},\"ids\":\"14\"}' , '/admin/document/edit/ids/14?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0' , '127.0.0.1' , 1548151687) [ RunTime:0.019875s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:08:07+08:00 ] 127.0.0.1 GET honghai.admin.com/admin/document/index?sort=weigh&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1548151643177
+[运行时间：0.250089s] [吞吐率：4.00req/s] [内存消耗：3,890.13kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004082s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'document',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'content-type' => 'application/json',
+  'x-requested-with' => 'XMLHttpRequest',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1548151643177',
+)
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001830s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\honghai\fastadmin\public/../application/admin/lang/zh-cn/document.php
+[ info ] [ RUN ] app\admin\controller\Document->index[ E:\honghai\fastadmin\application\admin\controller\Document.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026457s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.025087s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.024162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.022026s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.028534s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_categorys` [ RunTime:0.019321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_document` [ RunTime:0.019313s ]
+[ sql ] [ SQL ] SELECT `document`.`id`,`document`.`category_id`,`document`.`weigh`,`document`.`title`,`document`.`sub_title`,`document`.`image`,`document`.`summary`,`document`.`content`,category.id AS category__id,category.name AS category__name,category.createtime AS category__createtime FROM `fa_document` `document` LEFT JOIN `fa_categorys` `category` ON `document`.`category_id`=`category`.`id` ORDER BY `document`.`weigh` DESC LIMIT 0,10 [ RunTime:0.023885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_document` `document` LEFT JOIN `fa_categorys` `category` ON `document`.`category_id`=`category`.`id` ORDER BY `document`.`weigh` DESC LIMIT 1 [ RunTime:0.016281s ]
+---------------------------------------------------------------
+[ 2019-01-22T18:08:08+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/64a9d94b37dc45946896b62168e0f732.png
+[运行时间：0.053621s] [吞吐率：18.65req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013166s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '64a9d94b37dc45946896b62168e0f732.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:08:08+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/f7ccae17d89e4bd189ff15de4e545e58.png
+[运行时间：0.031106s] [吞吐率：32.15req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006142s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => 'f7ccae17d89e4bd189ff15de4e545e58.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:08:08+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/8d7772b739c695c82ad713e3c60fe50a.png
+[运行时间：0.029706s] [吞吐率：33.66req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004653s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '8d7772b739c695c82ad713e3c60fe50a.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:08:08+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/066ecfa93521642f3ae5ed926c91fb81.png
+[运行时间：0.031572s] [吞吐率：31.67req/s] [内存消耗：1,662.50kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006253s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '066ecfa93521642f3ae5ed926c91fb81.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-22T18:08:08+08:00 ] 127.0.0.1 GET honghai.admin.com/uploads/20190117/1318c8236d5f0a4de641670ce8ce634b.png
+[运行时间：0.038987s] [吞吐率：25.65req/s] [内存消耗：1,662.48kb] [文件加载：51]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006687s ]
+[ info ] [ LANG ] E:\honghai\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20190117',
+    2 => '1318c8236d5f0a4de641670ce8ce634b.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'honghai.admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://honghai.admin.com/admin/document?addtabs=1',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1547890696,1548151635; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1548151635; PHPSESSID=dte55r6f8k48c4v7lqt96bpk45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

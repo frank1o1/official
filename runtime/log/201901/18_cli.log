@@ -1,0 +1,57 @@
+[ 2019-01-18T20:03:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000254s ]
+[ info ] [ LOG ] INIT File
+[ 2019-01-18T20:03:25+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-01-18T20:03:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.028570s ]
+[ 2019-01-18T20:03:25+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-01-18T20:03:25+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.173505s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ 2019-01-18T20:03:25+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'top' [ RunTime:0.022040s ]
+[ 2019-01-18T20:03:25+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_top' [ RunTime:0.022983s ]
+[ 2019-01-18T20:03:25+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'honghai' AND table_name = 'fa_top' ORDER BY ORDINAL_POSITION [ RunTime:0.025944s ]
+[ 2019-01-18T20:03:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000168s ]
+[ info ] [ LOG ] INIT File
+[ 2019-01-18T20:03:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-01-18T20:03:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004415s ]
+[ 2019-01-18T20:03:26+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-01-18T20:03:26+08:00 ][ info ] [ LANG ] E:\honghai\fastadmin\application\admin\lang/zh-cn.php
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.165892s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.026944s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'top' LIMIT 1 [ RunTime:0.018280s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'top' , 'Top' , 'fa fa-circle-o\r' , '' , 1 , 'normal' , 1547813006 , 1547813006) [ RunTime:0.023492s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/index' LIMIT 1 [ RunTime:0.017997s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/add' LIMIT 1 [ RunTime:0.018168s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/edit' LIMIT 1 [ RunTime:0.017493s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/del' LIMIT 1 [ RunTime:0.018017s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/multi' LIMIT 1 [ RunTime:0.017617s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 210 , 'top/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1547813006 , 1547813006) [ RunTime:0.018925s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 210 , 'top/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1547813006 , 1547813006) [ RunTime:0.018484s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 210 , 'top/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1547813006 , 1547813006) [ RunTime:0.018721s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 210 , 'top/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1547813006 , 1547813006) [ RunTime:0.019398s ]
+[ 2019-01-18T20:03:26+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 210 , 'top/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1547813006 , 1547813006) [ RunTime:0.019753s ]
+[ 2019-01-18T20:03:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000217s ]
+[ info ] [ LOG ] INIT File
+[ 2019-01-18T20:03:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-01-18T20:03:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004520s ]
+[ 2019-01-18T20:03:56+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.163770s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'top' [ RunTime:0.020637s ]
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_top' [ RunTime:0.020567s ]
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'honghai' AND table_name = 'fa_top' ORDER BY ORDINAL_POSITION [ RunTime:0.022974s ]
+[ 2019-01-18T20:03:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000114s ]
+[ info ] [ LOG ] INIT File
+[ 2019-01-18T20:03:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-01-18T20:03:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004694s ]
+[ 2019-01-18T20:03:56+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-01-18T20:03:56+08:00 ][ info ] [ LANG ] E:\honghai\fastadmin\application\admin\lang/zh-cn.php
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.162380s ] mysql:host=47.107.238.113;port=3306;dbname=honghai;charset=utf8
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.021983s ]
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'top' LIMIT 1 [ RunTime:0.020644s ]
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/index' LIMIT 1 [ RunTime:0.018740s ]
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/add' LIMIT 1 [ RunTime:0.018165s ]
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/edit' LIMIT 1 [ RunTime:0.017882s ]
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/del' LIMIT 1 [ RunTime:0.017920s ]
+[ 2019-01-18T20:03:56+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'top/multi' LIMIT 1 [ RunTime:0.017450s ]
+[ 2019-01-18T20:03:57+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=210,`name`='top/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1547813037  WHERE  `id` = 211 [ RunTime:0.019745s ]
+[ 2019-01-18T20:03:57+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=210,`name`='top/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1547813037  WHERE  `id` = 212 [ RunTime:0.018985s ]
+[ 2019-01-18T20:03:57+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=210,`name`='top/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1547813037  WHERE  `id` = 213 [ RunTime:0.019318s ]
+[ 2019-01-18T20:03:57+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=210,`name`='top/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1547813037  WHERE  `id` = 214 [ RunTime:0.020191s ]
+[ 2019-01-18T20:03:57+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=210,`name`='top/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1547813037  WHERE  `id` = 215 [ RunTime:0.019107s ]
