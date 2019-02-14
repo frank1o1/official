@@ -1,0 +1,92 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-title" class="form-control" name="row[title]" type="text" value="{$row.title}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Department')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-department" class="selectpicker" name="row[department]">
+                <option>请选择</option>
+                {volist name="department" id="vo"}
+                <option value="{$vo}" {if $vo eq $row.department}selected{/if}>{$vo}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Job_classify')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-job_classify" class="selectpicker" name="row[job_classify]">
+                <option>请选择</option>
+                {volist name="job_classify" id="vo"}
+                <option value="{$vo}" {if $vo eq $row.job_classify}selected{/if}>{$vo}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Experience_years')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-experience_years" class="selectpicker" name="row[experience_years]">
+                <option>请选择</option>
+                {volist name="experience" id="vo"}
+                <option value="{$vo}" {if $vo eq $row.experience_years}selected{/if}>{$vo}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Salary_range')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-salary_range" class="form-control" name="row[salary_range]" type="text" value="{$row.salary_range}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Number')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-number" class="form-control" name="row[number]" type="number" value="{$row.number}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('City')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class='control-relative'><input id="c-city" class="form-control" data-toggle="city-picker" name="row[city]" type="text" value="{$row.city}"></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Area')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-area" class="form-control" name="row[area]" type="text" value="{$row.area}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Logintude')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-logintude" class="form-control" name="row[logintude]" type="text" value="{$row.logintude}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Latitude')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-latitude" class="form-control" name="row[latitude]" type="text" value="{$row.latitude}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">地图:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-map" class="form-control form-control" data-toggle="addresspicker"
+                   data-input-id="c-area" data-lat-id="c-latitude" data-lng-id="c-logintude" type="text">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
